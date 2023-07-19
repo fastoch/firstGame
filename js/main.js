@@ -24,6 +24,7 @@ window.onload = function game() {
         // location.reload() reloads the web page 
       } else {
         alert("You didn't enter rock, paper, or scissors.");
+        location.reload();
       }
     } else {
       alert("I guess you changed your mind. Maybe next time...");
